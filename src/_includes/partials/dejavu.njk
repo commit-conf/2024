@@ -1,0 +1,13 @@
+<section class="background-gray">
+  <div class="limited-large content section-center">
+    <h1>{{DejavuTitle}}</h1>
+    <p>{{DejavuDesc}}</p>
+    <div class="dejavu-videos">
+      {% import "macros/youtube.njk" as youtube %}
+      {{ youtube.render(id="R5LUZu_i8S8", title="Cómo se diseña una base de datos que pueda ingerir más de cuatro millones de eventos por segundo - Javier Ramírez", ariaLabel="Click to play the recording of Cómo se diseña una base de datos que pueda ingerir más de cuatro millones de eventos por segundo - Javier Ramírez") }}
+      {{ youtube.render(id="BXmYvpQEmNU", title="¡Hola desarrollo mobile! - Brais Moure", ariaLabel="Click to play the recording of Pair Programming: Poo & Pee adventures - Brais Moure") }}
+      {{ youtube.render(id="kuyN1ED80oI", title="Superponiendo superpoderes a las páginas web: inyectando CSS y JS para verificar y mejorar la accesibilidad - Ramón Corominas", ariaLabel="Click to play the recording of Superponiendo superpoderes a las páginas web: inyectando CSS y JS para verificar y mejorar la accesibilidad - Ramón Corominas") }}
+      <a class="dejavu-link" href="https://2023.commit-conf.com" aria-label="{{ViewMoreDejavu}}">» {{MoreDejavu}}</a>
+    </div>
+  </div>
+</section>

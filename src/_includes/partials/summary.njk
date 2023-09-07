@@ -1,0 +1,19 @@
+<section class="content padding-top-10 padding-bottom-10 background-dark">
+
+  <div class="text-center">
+    <h1>Commit 2024</h1>
+    <p class="subheader">{{ItComes}}</p>
+  </div>
+  <div class="limited-large grid items-center">
+    <div>
+    <p itemprop="description">{{TitleDesc}}</p>
+      <p>
+        {{ComingReasons}}
+      </p>
+    </div>
+    
+    {% import "macros/youtube.njk" as youtube %}
+    {{ youtube.render(id="AmX136JgVqU", title=2023VideoSummary, ariaLabel=2023VideoSummaryDesc) }}
+  </div>
+
+</section>
