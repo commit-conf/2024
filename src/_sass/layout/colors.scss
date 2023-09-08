@@ -108,10 +108,6 @@ $color-pink-900: #702459;
 // component colors
 $color-body-bg: $color-white !default;
 $color-body-fg: $color-gray-900;
-$color-topbar-fg: $color-white;
-$color-topbar-bg: $color-black;
-$color-link: $color-yellow-700;
-$color-link-hover: $color-yellow-800;
 $color-border: $color-gray-300;
 $color-tab-border: $color-gray-300;
 $color-brand-youtube: #cc181e;
@@ -119,8 +115,25 @@ $color-outline: $color-blue-300;
 $color-highlight-bg: $color-body-bg;
 $color-highlight-fg: $color-pink-800;
 
+$color-pink-test: #97266d;
+$color-magenta-test: #97266d;
+$color-pink-soft-test: #f4a3c8;
+$color-pink-deep-test: #6a3277;
+$color-gray-test: #a9a9a9;
+$color-yellow-test: #ffc107;
+$color-teal-test: #007b7f;
+
+$color-header: $color-pink-800;
+$color-subheader: $color-gray-700;
+$color-button-primary-bg: $color-teal-700;
+$color-button-primary-fg: $color-white;
+$color-link: $color-teal-700;
+$color-link-hover: $color-teal-800;
+$color-topbar-bg: $color-button-primary-bg;
+$color-topbar-fg: $color-button-primary-fg;
+
 .highlight {
-  background-color: $color-highlight-bg;
+  background-color: $color-pink-500;
 }
 .font-highlight {
   background-color: transparent;

@@ -47,7 +47,7 @@ $logo-margin: $margin-3 $margin-4;
 
 .topbar-dropdown,
 .topbar-dropdown-js {
-  --tooltip-color: #{$color-gray-900};
+  --tooltip-color: #{$color-topbar-bg};
   position: relative;
 
   .topbar-dropdown-content {

@@ -35,6 +35,10 @@
   }
 
   &.primary {
-    @include buttonColors($color-white, $color-yellow-600, -10%);
+    @include buttonColors(
+      $color-button-primary-fg,
+      $color-button-primary-bg,
+      -10%
+    );
   }
 }

@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-body-fg;
+  color: $color-header;
   font-family: var(--header-font);
   font-weight: 900;
   line-height: $line-height-tight;
@@ -109,7 +109,7 @@ h6 {
 }
 // .subheader is to be used under H1 to indicate additional context
 .subheader {
-  color: $color-pink-800;
+  color: $color-subheader;
   line-height: $line-height-snug;
   //margin: $margin-4 0;
 }
