@@ -3,7 +3,7 @@
   --hero-button-font-size: #{$font-size-l};
   --hero-title-size: #{$font-size-5xl};
   --hero-subtitle-size: #{$font-size-3xl};
-  --hero-min-height: 300px;
+  --hero-min-height: calc(100vh - 11.7rem);
   justify-content: center;
   align-items: center;
   padding-top: $padding-8;
@@ -47,9 +47,15 @@
 }
 
 .hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: $gap-3;
+
   > .button {
     padding: var(--hero-button-padding);
     font-size: var(--hero-button-font-size);
+    margin: 0;
   }
 }
 
@@ -57,23 +63,23 @@
   display: flex;
   align-items: center;
   gap: $gap-2;
-  --stat-label-max-font-size: #{$font-size-xl};
-  --stat-value-max-font-size: #{$font-size-2xl};
-  > .stat-label {
-    font-size: clamp(#{$font-size-l}, 3vw, var(--stat-label-max-font-size));
-    text-transform: uppercase;
-    line-height: $line-height-snug;
-    color: $color-gray-600;
-    font-weight: bold;
-    &.light {
-      color: $color-white;
-    }
+}
+
+.stat-label {
+  font-size: $font-size-l;
+  text-transform: uppercase;
+  line-height: $line-height-6;
+  color: $color-gray-600;
+  font-weight: bold;
+  &.light {
+    color: $color-white;
   }
-  > .stat-value {
-    font-size: clamp(#{$font-size-xl}, 3vw, var(--stat-value-max-font-size));
-    font-weight: bold;
-    line-height: $line-height-snug;
-  }
+}
+
+.stat-value {
+  font-size: $font-size-xl;
+  font-weight: bold;
+  line-height: $line-height-snug;
 }
 
 .stats {
@@ -81,15 +87,18 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  background-color: rgba($color-pink-800, 0.9);
+  background-color: $color-pink-800;
   color: $color-white;
   text-shadow: 2px 2px 0 $color-pink-900;
   backdrop-filter: blur(5px);
   padding: $padding-4 $padding-0;
   gap: $gap-3;
-  .stat {
+  & .stat {
     --stat-value-max-font-size: #{$font-size-4xl};
     --stat-label-max-font-size: #{$font-size-2xl};
+  }
+  & .stat-label {
+    line-height: $line-height-normal;
   }
 }
 
@@ -232,7 +241,14 @@
     --hero-button-font-size: #{$font-size-xl};
     --hero-title-size: #{$font-size-7xl};
     --hero-subtitle-size: #{$font-size-4xl};
-    --hero-min-height: 450px;
+    --hero-min-height: calc(100vh - 9.7rem);
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $gap-4;
   }
 
   .stats {
@@ -253,4 +269,44 @@
   p {
     font-size: $font-size-2xl;
   }
+
+  .stats .stat-label {
+    line-height: $line-height-10;
+  }
+  .stat-label {
+    font-size: $font-size-xl;
+  }
+  .stat-value {
+    font-size: $font-size-2xl;
+  }
 }
+
+// animate text as we scroll
+//@supports (animation-timeline: view()) {
+.animate-with-scroll {
+  & > span {
+    display: inline-block;
+    opacity: 0.2;
+    //filter: saturate(0.1) brightness(0.5);
+    //view-timeline: --subjectReveal block;
+    animation-timeline: view();
+    animation-name: highlight-text;
+    animation-fill-mode: both;
+    animation-duration: 1ms;
+  }
+
+  & > span:nth-of-type(1) {
+    animation-range: cover 0% cover 65%;
+  }
+  & > span:nth-of-type(2) {
+    animation-range: cover 45% cover 120%;
+  }
+}
+
+@keyframes highlight-text {
+  50% {
+    opacity: 1;
+    //rotate: 90deg;
+  }
+}
+//}

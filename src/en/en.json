@@ -112,7 +112,7 @@
   "LunchIncluded": "<p>The ticket includes the coffee breaks, lunch, and the networking snacks and drinks on Friday evening. You can specify any food preference or restriction during your ticket purchase. As an alternative, you can use the cafeteria of the University or bring your meal from home.</p>",
   "WhoOrganizesCommit": "Who organizes Commit?",
   "WhoOrganizesCommitDescription": "Commit is an event managed by a team of women, men, parents, Canarians, Italians, Galicians, Germans, Nerds, Excel Wizards, Android and iPhone fans... That's a total of five people.",
-  "LauraDesc": "The spreadsheet hacker that keeps this boat afloat. She likes fruit, as long as it's chocolate.",
+  "LauraDesc": "Fights with spreadsheets to make this happen. She loves it when a plan comes together.",
   "AbrahamDesc": "He rowed a boat once, alone, surrounded by crocodiles. He codes in Java for the same reasons.",
   "JanineDesc": "She speaks four languages, manages three kids. She gets shit done.",
   "NachoDesc": "He knows how to break things with computers. His children know how to break things without computers.",
@@ -139,5 +139,8 @@
   "Changes": "Changes",
   "ChangesDesc": "<p>Our Privacy Policy may change. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes).</p>",
   "ItComes": "Here it comes!",
+  "CTA1": "<span>Come with friends. </span><span>Make new friends. </span>",
+  "CTA2": "<span>Come as a presenter. </span><span>Come as an attendee. </span>",
+  "CTA3": "<span>Come as a sponsor. </span><span>Come as a volunteer.</span>",
   "ComingReasons": "You can come for the talks, to connect with the communities, to play table football, for the giant Jenga, to do networking, ... Whatever you want. Come with friends. Make new friends. As a speaker. As an attendee. As a sponsor. As a volunteer. We will be delighted that you are here and share those days with us."
 }
