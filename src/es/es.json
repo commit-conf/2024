@@ -24,10 +24,7 @@
   "communities": "comunidades",
   "2023VideoSummary": "Resumen de Commit 2023",
   "2023VideoSummaryDesc": "Haz clic para reproducir la grabación de Resumen de Commit 2023",
-  "2024ThemeTitle": "No tengas miedo a la automatización",
-  "2024ThemeSubtitle": "Hay desarrolladores que temen perder trabajo por la IA.",
-  "2024ThemeDesc": "<p>Últimamente se habla mucho sobre que el desarrollo de la IA puede reemplazar el trabajo de los desarrolladores. Pero nada más lejos de la realidad. Sólo se trata de una herramienta más, igual que los contenedores o los servicios en la nube no sustituyeron el trabajo de los ingenieros de sistemas.</p><p>Por ejemplo, la IA puede ayudarnos para hacer brainstorming a nivel individual o crear baterías de test en menos tiempo. Todo es cuestión de adaptarse y seguir trabajando.</p><p>Eso sí, el temor a que de pronto tu jefe sea Elon Musk siempre estara ahí.</p>",
-  "TitleDesc": "Commit es la conferencia española que incluye todos los aspectos de TI, desde el desarrollo de software hasta Big Data, Cloud o ML.",
+  "TitleDesc": "<p itemprop=\"description\">Commit es la conferencia española donde discutimos Cloud, Web, Machine Learning, mientras jugamos al futbolín o montamos una Jenga de metro y medio.</p><p>Ven con amigos. Haz nuevos amigos. Ven como ponente o como asistente. Tenemos dos días al año que pasar juntos, charlando de lo que nos gusta.</p><p>No te lo pierdas.</p>",
   "OurSponsors": "Nuestros patrocinadores",
   "OurSponsorsDesc": "Commit es una oportunidad única para posicionar tu marca, conectar con tu audiencia y ser parte de las conversaciones que arrancan cuando hay equipos que descubren juntos nuevas maneras de crear software.",
   "GetInContact": "Entrar en contacto",
@@ -73,7 +70,7 @@
   "AttendeeJobRole": "Perfil profesional del asistente",
   "GetInvolved": "Implícate",
   "GetInvolvedDesc": "<p>Commit es una oportunidad única para posicionar tu marca, conectar con tu audiencia y ser parte de las conversaciones que arrancan cuando hay equipos que descubren juntos nuevas maneras de crear software.</p>",
-  "GetInvolvedBulletPoints": "<ul><li><b>Extiende tu red de contactos</b> con profesionales de un ecosistema rico y diverso de desarrollo de software.</li><li><b>Posiciona tu marca</b> cerca de las comunidades de IT en España.</li><li><b>Contacta con talento altamente cualificado</b>, para posiciones tanto junior como senior.</li><li><b>Recopila feedback sobre tus nuevos productos e iniciativas</b>, comparando con otras alternativas en el mercado.</li><li><b>Lead generation</b>: mantén control de los contactos hechos en tu booth usando nuestra aplicación.</li><li><b>Comparte lo que haces</b> — al final, eso es de lo que trata todo esto.</li></ul>",
+  "GetInvolvedBulletPoints": "<ul><li><b>Extiende tu red de contactos</b> con profesionales de un ecosistema rico y diverso de desarrollo de software.</li><li><b>Posiciona tu marca</b> cerca de las comunidades de IT en España.</li><li><b>Contacta con talento altamente cualificado</b>, para posiciones tanto junior como senior.</li><li><b>Recopila feedback sobre tus nuevos productos e iniciativas</b>, comparando con otras alternativas en el mercado.</li><li><b>Comparte lo que haces</b> — al final, es de lo que trata todo esto.</li></ul>",
   "Where": "Dónde",
   "ClickToOpenInGoogleMaps": "Haz clic para abrir la localización en Google Maps",
   "MapAlt": "Ubicación de CEU San Pablo, Campus de Monteprincipe",
@@ -137,9 +134,8 @@
   "SecurityDesc": "<p>La seguridad de tus datos es importante para nosotros. Para evitar el acceso no autorizado o la divulgación de información, encriptamos nuestras comunicaciones con SSL.</p>",
   "Changes": "Cambios",
   "ChangesDesc": "<p>Podemos modificar esta política de privacidad en cualquier momento. Si hacemos cambios significativos, te avisaremos por correo electrónico o mediante un aviso destacado en nuestro sitio web.</p>",
-  "ItComes": "Que viene, que viene!",
+  "ItComes": "Dos días que darte a ti mismo",
   "CTA1": "<span>Ven con amigos. </span><span>Haz nuevos amigos. </span>",
   "CTA2": "<span>Ven como ponente. </span><span>Ven como asistente. </span>",
-  "CTA3": "<span>Ven como patrocinador. </span><span>Ven como voluntario. </span>",
-  "ComingReasons": "Puedes venir por las charlas, para conectar con las comunidades, por el futbolín, por la Jenga gigante, por el networking... por lo que quieras. Ven con amigos. Haz nuevos amigos. Como ponente. Como asistente. Como patrocinador. Como voluntario. Estaremos encantados de que estés aquí y compartas esos días con nosotros."
+  "CTA3": "<span>Ven como patrocinador. </span><span>Ven como voluntario. </span>"
 }

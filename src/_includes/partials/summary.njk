@@ -5,10 +5,7 @@
   </div>
   <div class="limited-large grid items-center">
     <div>
-    <p itemprop="description">{{TitleDesc}}</p>
-      <p>
-        {{ComingReasons}}
-      </p>
+    {{TitleDesc | safe}}
     </div>
     
     {% import "macros/youtube.njk" as youtube %}
