@@ -12,7 +12,9 @@
     "watch:sass": "inotifywait -m -r -e close_write,create,delete src/_sass/ | while read NEWFILE; do npm run build:sass; done",
     "watch:webpack": "NODE_ENV=development webpack-cli --watch",
     "watch:eleventy": "ENV=dev npx @11ty/eleventy --serve --port=8081",
-    "watch": "npm run clean; npm-run-all build:sass --parallel watch:*"
+    "watch": "npm run clean; npm-run-all build:sass --parallel watch:*",
+    "===": "========== Initialization ===========",
+    "init:gh-pages": "git switch --orphan gh-pages && git commit --allow-empty -m \"Initial commit on gh-pages branch\" && git push -u origin gh-pages"
   },
   "author": "Carlos Coloma",
   "license": "Apache-2.0",
