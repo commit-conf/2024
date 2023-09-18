@@ -10,8 +10,8 @@ if [ ! -d ${FOLDER} ]; then
   exit 1
 fi
 
-# get the last commit message from the master branch
-COMMIT_MESSAGE=$(git log origin/master -1 --pretty=%B)
+# get the last commit message from the main branch
+COMMIT_MESSAGE=$(git log origin/main -1 --pretty=%B)
 
 cd ${FOLDER}
 echo "Current folder: $(pwd)"
