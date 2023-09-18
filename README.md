@@ -158,5 +158,5 @@ To add a community, you need to:
 
 CICD depends on Github Actions. We have two workflows:
 
-1. [Build](/.github/workflows/build.yml): It runs on every push to the master branch. It will build the website and deploy it to the `gh-pages` branch.
-2. [Optimize images](/.github/workflows/optimize-images.yml): It runs on every push to the master branch. It will optimize the images in the `static/img` folder and commit the changes to the master branch.
+1. [Build](/.github/workflows/build.yml): It runs on every push to the main branch. It will build the website and deploy it to the `gh-pages` branch.
+2. [Optimize images](/.github/workflows/optimize-images.yml): It runs on every push to the main branch. It will optimize the images in the `static/img` folder and commit the changes to the main branch.

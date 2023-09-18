@@ -3,7 +3,7 @@ name: CI/CD
 on:
   push:
     branches:
-      - "master"
+      - "main"
     paths:
       - "static/img/communities/optimized/*"
       - "static/img/sponsors/optimized/*"
@@ -23,7 +23,7 @@ jobs:
       contents: write
     steps:
       # you must check out the repository
-      - name: Checkout master branch
+      - name: Checkout main branch
         uses: actions/checkout@v3
       - name: Checkout gh-pages branch on subfolder
         uses: actions/checkout@v3

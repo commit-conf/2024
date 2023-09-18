@@ -3,7 +3,7 @@ name: Images optimization
 on:
   push:
     branches:
-      - "master"
+      - "main"
     paths:
       - "static/img/sponsors/*"
       - "static/img/communities/*"
