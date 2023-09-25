@@ -91,8 +91,8 @@ module.exports = [
     svg: "true",
   },
   {
-    name: "STCAsturias",
-    href: "https://twitter.com/STCAsturias",
+    name: "Tech Club Asturias",
+    href: "https://twitter.com/TCAsturias",
   },
   {
     name: "XantarDev",
