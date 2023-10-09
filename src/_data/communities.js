@@ -98,4 +98,8 @@ module.exports = [
     name: "XantarDev",
     href: "https://xantardev.org",
   },
+  {
+    name: "nscodernightmadrid",
+    href: "https://www.meetup.com/es-ES/nscoder-night-madrid/",
+  },
 ];
