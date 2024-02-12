@@ -15,6 +15,10 @@ module.exports = [
           name: "Next Digital Hub",
           href: "https://www.nextdigital.es/",
         },
+        {
+          name: "Sopra Steria",
+          href: "https://www.soprasteria.es/trabaja-con-nosotros",
+        },   
       ],
     },
     {
