@@ -19,6 +19,11 @@ module.exports = [
           name: "Sopra Steria",
           href: "https://www.soprasteria.es/trabaja-con-nosotros",
         },   
+        {
+          name: "GitLab",
+          href: "https://about.gitlab.com/",
+          svg: true,
+        },
       ],
     },
     {
