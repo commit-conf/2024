@@ -28,6 +28,11 @@ module.exports = [
           name: "Elastic",
           href: "https://www.elastic.co/",
         },
+        {
+          name: "Facephi",
+          href: "https://facephi.com/",
+          svg: true,
+        },
       ],
     },
 ];
