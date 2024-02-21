@@ -38,6 +38,11 @@ module.exports = [
           href: "https://facephi.com/",
           svg: true,
         },
+        {
+          name: "Alten",
+          href: "https://www.alten.es/",
+          svg: true,
+        },
       ],
     },
 ];
