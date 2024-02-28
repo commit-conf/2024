@@ -43,6 +43,11 @@ module.exports = [
           href: "https://www.alten.es/",
           svg: true,
         },
+        {
+          name: "Bravent",
+          href: "https://www.bravent.net/",
+          svg: true,
+        },
       ],
     },
 ];
