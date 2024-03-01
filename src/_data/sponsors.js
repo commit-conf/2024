@@ -24,6 +24,11 @@ module.exports = [
           href: "https://about.gitlab.com/",
           svg: true,
         },
+        {
+          name: "Sngular",
+          href: "https://www.sngular.com/",
+          svg: true,
+        },
       ],
     },
     {
