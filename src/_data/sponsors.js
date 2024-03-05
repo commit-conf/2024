@@ -29,6 +29,11 @@ module.exports = [
           href: "https://www.sngular.com/",
           svg: true,
         },
+        {
+          name: "Openbank",
+          href: "https://www.openbank.es/ofertas-empleo",
+          svg: true,
+        },
       ],
     },
     {
