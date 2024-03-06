@@ -34,6 +34,11 @@ module.exports = [
           href: "https://www.openbank.es/ofertas-empleo",
           svg: true,
         },
+        {
+          name: "Autentia",
+          href: "https://www.autentia.com/",
+          svg: true,
+        },
       ],
     },
     {
