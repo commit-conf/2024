@@ -39,6 +39,9 @@ module.exports = [
           href: "https://www.autentia.com/",
           svg: true,
         },
+        {
+          name: "BBVA Technology",
+        },
       ],
     },
     {
