@@ -68,5 +68,14 @@ module.exports = [
         },
       ],
     },
+    {
+      name: "Supporter",
+      items: [
+        {
+          name: "Okta",
+          href: "https://www.okta.com/",
+        },
+      ],
+    },
 ];
 
