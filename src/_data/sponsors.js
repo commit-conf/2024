@@ -72,8 +72,9 @@ module.exports = [
       name: "Supporter",
       items: [
         {
-          name: "Okta",
-          href: "https://www.okta.com/",
+          name: "Auth0",
+          href: "https://auth0.com/",
+          svg: true,
         },
       ],
     },
