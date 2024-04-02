@@ -35,8 +35,8 @@ module.exports = [
           svg: true,
         },
         {
-          name: "Autentia",
-          href: "https://www.autentia.com/",
+          name: "Izertis",
+          href: "https://www.izertis.com/es/",
           svg: true,
         },
         {
