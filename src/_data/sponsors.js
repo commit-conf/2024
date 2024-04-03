@@ -37,7 +37,6 @@ module.exports = [
         {
           name: "Izertis",
           href: "https://www.izertis.com/es/",
-          svg: true,
         },
         {
           name: "BBVA Technology",
