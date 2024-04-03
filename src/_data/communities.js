@@ -77,6 +77,10 @@ module.exports = [
     href: "https://meetup.com/es-ES/MalagaJUG/",
   },
   {
+    name: "MuleSoft",
+    href: "https://meetups.mulesoft.com/madrid/",
+  },
+  {
     name: "NodeJSMadrid",
     href: "https://www.meetup.com/es/Node-js-Madrid",
   },
