@@ -8,6 +8,11 @@ module.exports = [
     href: "https://twitter.com/agilegirls",
   },
   {
+    name: "AlmeriaTech",
+    href: "https://www.almeriatech.es/",
+    svg: "true",
+  },
+  {
     name: "CrossDvlup Madrid",
     href: "https://www.meetup.com/CrossDvlup",
   },
@@ -76,6 +81,10 @@ module.exports = [
     href: "https://www.meetup.com/es/Node-js-Madrid",
   },
   {
+    name: "nscodernightmadrid",
+    href: "https://www.meetup.com/es-ES/nscoder-night-madrid/",
+  },
+  {
     name: "Python España",
     href: "https://es.python.org/",
     svg: "true",
@@ -97,9 +106,5 @@ module.exports = [
   {
     name: "XantarDev",
     href: "https://xantardev.org",
-  },
-  {
-    name: "nscodernightmadrid",
-    href: "https://www.meetup.com/es-ES/nscoder-night-madrid/",
   },
 ];
