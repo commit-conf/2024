@@ -41,6 +41,7 @@ module.exports = [
       },
       {
         name: "BBVA Technology",
+        href: "https://www.bbvatechnology.com/europa/",
       },
       {
         name: "Atmira",
