@@ -12,7 +12,7 @@ module.exports = function () {
     environment: process.env.ENV || "prod",
     c4pURL: "https://koliseo.com/commit/2024/sessions",
     agendaURL: "https://koliseo.com/commit/2024/agenda",
-    ticketsURL: "https://koliseo.com/commit/2024/tickets",
+    ticketsURL: "https://koliseo.com/commit/commit-conf-2025/tickets",
     newsletter:
       "https://commit-conf.us8.list-manage.com/subscribe?u=b180f87ed019c243f111b693a&amp;id=6a6bdcb448",
     communities,
